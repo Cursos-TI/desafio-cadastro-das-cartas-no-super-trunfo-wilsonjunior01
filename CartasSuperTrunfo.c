@@ -3,9 +3,9 @@
 int main(){
     
     printf("Carta 1\n");
-    char estado;
-    char código;
-    char nome[50];
+    char estado[50];
+    char código[50];
+    char nome[100];
     int populacao;
     float area;
     float pib;
@@ -18,27 +18,35 @@ int main(){
     scanf("%s", &código);
 
     printf("Nome da Cidade: ");
-    scanf("%s", &nome);
+    scanf("%s", nome);
 
     printf("População: ");
-    scanf("%f", &populacao);
+    scanf("%i", &populacao);
 
-    printf("Área: \n");
+    printf("Área: ");
     scanf("%f", &area);
 
     printf("PIB: ");
     scanf("%f", &pib);
 
     printf("Numero de Pontos Turisticos: ");
-    scanf("%d", &ponto);
+    scanf("%i", &ponto);
+
+
 
     printf("Estado: %s\n", estado);
     printf("Código: %s\n", código);
     printf("Nome da Cidade: %s\n", nome);
-    printf("População: %f habitantes\n", populacao);
-    printf("Área: %fkm²\n", area);
-    printf("PIB: %f\n", pib);
-    printf("Numero de Pontos Turisticos: %d");
-
+    printf("População: %i habitantes\n", populacao);
+    printf("Área: %f km²\n", area);
+    printf("PIB: %f bilhões\n", pib);
+    printf("Numero de Pontos Turisticos: %i", ponto);
+    
+   
+   
+   
+   
+   
+    return 0;
 
 }
