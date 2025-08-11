@@ -2,24 +2,38 @@
 
 int main(){
     
-    int carta;
-    
+    printf("Carta 1");
+    char estado;
+    char código;
     char nome[50];
+    int populacao;
+    float área;
+    float PIB;
+    int ponto;
 
-    printf("|Digite sua idade: \n");
-    scanf("%d", &idade);
+    printf("Estado: ");
+    scanf("%s", &estado);
 
-    printf("Digite sua altura: \n");
-    scanf("%f", &altura);
+    printf("Código: ");
+    scanf("%s", &código);
 
-    printf("Digite sue nome: \n");
+    printf("Nome da Cidade: ");
     scanf("%s", &nome);
 
-    printf("Digite sua matricula: \n");
-    scanf("%d", &matricula);
+    printf("População: ");
+    scanf("%f", &populacao);
 
-    printf("Nome do aluno: %s - Matricula: %d\n" , nome, matricula);
-    printf("Idade: %d - Altura: %f", idade, altura);
+    printf("Área: ");
+    scanf("%f", &área);
+
+     printf("PIB: ");
+     scanf("%f", &PIB);
+
+    printf("Numero de Pontos Turisticos: ");
+    scanf("%d", &ponto);
+
+    printf("Estado: %s\n Código: %s\n Nome da Cidade: %s\n Popolação: %f\n", estado, código, nome, populacao);
+    printf("Área: %f\n PIB: %f\n Numero de Pontos Turisticos: %d", área, PIB, ponto);
 
 
 
