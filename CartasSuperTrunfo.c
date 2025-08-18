@@ -2,7 +2,7 @@
 
 int main(){
     
-    printf("Carta 1\n");
+    printf("***Carta 1***\n");
     char estado1[50];
     char codigo1[50];
     char nome1[50];
@@ -10,6 +10,8 @@ int main(){
     float area1;
     float pib1;
     int ponto1;
+    float dencidade1;
+    float per_capita1;
 
     printf("Estado1: ");
     scanf("%s", estado1);
@@ -31,6 +33,12 @@ int main(){
 
     printf("Numero de Pontos Turisticos: ");
     scanf("%d", &ponto1);
+
+    printf("Decidade Populacional: ");
+    scanf("%f", &dencidade1);
+
+    printf("PIB per Capita: ");
+    scanf("%d", &per_capita1);
     
 
     printf("Estado1: %s\n", estado1);
@@ -40,9 +48,15 @@ int main(){
     printf("Área: %f km²\n", area1);
     printf("PIB: %f bilhões\n", pib1);
     printf("Numero de Pontos Turisticos: %d\n", ponto1);
-    
-   
-    printf("Carta 2\n");
+    printf("Decidade Populacional: %d\n", dencidade1);
+    printf("PIB per Capita: %d\n", per_capita1);
+
+
+
+
+
+
+    printf("***Carta 2***\n");
     char estado2[50];
     char codigo2[50];
     char nome2[50];
@@ -50,6 +64,8 @@ int main(){
     float area2;
     float pib2;
     int ponto2;
+    float dencidade2;
+    float per_capita2;
 
     printf("Estado2: ");
     scanf("%s", estado2);
@@ -71,6 +87,12 @@ int main(){
 
     printf("Numero de Pontos Turisticos: ");
     scanf("%d", &ponto2);
+
+    printf("Decidade Populacional: ");
+    scanf("%f", &dencidade2);
+
+    printf("PIB per Capita: ");
+    scanf("%d", &per_capita2);
     
 
     printf("Estado2: %s\n", estado2);
@@ -80,7 +102,9 @@ int main(){
     printf("Área: %f km²\n", area2);
     printf("PIB: %f bilhões\n", pib2);
     printf("Numero de Pontos Turisticos: %d", ponto2);
-   
+    printf("Decidade Populacional: %d\n", dencidade2);
+    printf("PIB per Capita: %d\n", per_capita2);
+
    
 
     return 0;
