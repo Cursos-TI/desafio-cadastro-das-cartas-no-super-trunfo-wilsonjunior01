@@ -111,6 +111,16 @@ int main(){
     printf("PIB per Capita: %d\n", per_capita1 > per_capita2);
     printf("Super Poder: %d", resultado1 > resultado2);
 
+     printf("\n***Resultado Final***\n");
+
+     if (resultado1 > resultado2) {
+          printf("Carta 1 venceu!\n");
+}    else if (resultado2 > resultado1) {
+             printf("Carta 2 venceu!\n");
+}    else {
+             printf("Empate técnico entre as cartas!\n");
+}  
+
 
    
     return 0;
